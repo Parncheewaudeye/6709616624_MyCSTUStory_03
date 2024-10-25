@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Serif+Display:ital@0;1&family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&family=Handlee&family=Rajdhani:wght@300;400;500;600;700&family=Zeyada&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-image: url('resources/bgimg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #333;
+}
+
+header {
+    background-color: rgb(215, 230, 239);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Handlee', cursive;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+}
+
+header h3 {
+    font-family: "Zeyada", cursive;
+    font-size: 1.2em;
+    color: #666;
+}
+
+nav {
+    font-family: "Rajdhani", sans-serif;
+    text-align: center;
+    background: #efefef;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    background: #d1d1d1;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-family: 'Handlee', cursive;
+    color: #3498db;
+    margin-bottom: 10px;
+}
+
+section p {
+    line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    background:rgb(215, 230, 239);
+    color: black;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    font-family: "Rajdhani", sans-serif;
+    margin: 0;
+}
